@@ -3,46 +3,52 @@
 <head>
 	<title>formulario</title>
 	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<div>
-  <button type="button">Acceder al formulario</button>
+	<header>
+  <div class="boton1">
+  <button type="button" style=>Acceder al formulario</button>
    </div> 
- </br>
-   <div>
+   </header>
+ <body>
+   <section class="container">
+   <div class="fecha">
   <label form="text">Fecha de solicitud:</label>
+</br>
   <input type="date" id="fecha" placeholder="mm/dd/yyyy">
    </div>
   </br>
-   <div>
+   <div class="columna">
    <label form="name">Nombre Completo:</label>
+ </br>
   <input type="name" id="name" name="user_name" placeholder="pepito perez">
    </div>
- </br>
-  <div>
-  	  <label form="text">Fecha de Nacimiento:</label>
-  <input type="date" id="fecha" placeholder="mm/dd/yyyy">
+  <div class="columna">
+  	<label form="text">Fecha de Nacimiento:</label>
+  </br>
+  <input  type="date" id="nacimiento" placeholder="mm/dd/yyyy">
     </div>
- </br>
-   <div>
+  <div class="columna">
  <label form="mail">Correo Electronico:</label>
+</br>
  <input type="email" id="Confirm_Email" name="user_email" placeholder="alguien@gmail.com">
    </div>
+  <div class="columna">
+  <label form="name">Telefono:</label>
+  </br>
+  <input type="text" id="telefono" text="name" placeholder="5557776">
+  </div>
  </br>
-  <div>
-  	<label form="name">Telefono:</label>
-    <input type="text" id="telefono" text="name" placeholder="5557776">
-   </div>
- </br>
-   </div>
+   <div class="columna">
    	     seleccione su sexo
    	     <input type="radio" name="sexo" value="hombre" /> Masculino
          <input type="radio" name="sexo" value="mujer" /> Femenino
          <input type="radio" name="sexo" value="mujer" /> otro
     </div>
   <p>
-    <div>
+  <div class="columna">
     <label>Departamento:</label>
+  </br>
     <select name="departamento">
     <option>Seleccionar departamento</option>
     <option>Antioquia</option>  
@@ -80,9 +86,9 @@
     <option>Vichada</option>
  </select>
   </div>
- </br>
-  <div>
+  <div class="columna">
     <label>Ciudad:</label>
+  </br>
     <select name="ciudad">
     <option>Seleccionar ciudad</option>
 <option value="2">Acacías</option>
@@ -999,73 +1005,70 @@
               <option value="913">Simití</option>
   </select>
    </div>
- </br>
-   <div>
+  <div class="columna">
     <label form="name">Direccion:</label>
-    <input type="text" id="direccion" text="name" placeholder="cra 22 #22c -22">
-   </div>
   </br>
-   <div>
+    <input type="text" id="direccion" text="name" placeholder="cra 22 #22c -22">
+  <div class="columna">
     seleccione el tipo de domicilio
       <input type="radio" name="domicilio" value="casa"/>casa
       <input type="radio" name="domicilio" value="apartamento"/>apartamento
       <input type="radio" name="domicilio" value="finca"/>finca
       <input type="radio" name="domicilio" value="otro"/>otro
    </div>
- </br>
-   <div>
+  <div class="columna">
     <label form="name">Especifique "otro":</label>
+  </br>
     <input type="text" id="espesifique_otro" text="name">
    </div> 
+  <div class="columna">
+    <label form="name">Numero de integrantes del domicilio:</label>
   </br>
-   <div>
-        <label form="name">Numero de integrantes del domicilio:</label>
     <input type="text" id="numero_de_integrantes" text="name">
    </div>
-  </br>
-     <div>
+  <div class="columna">
     <label form="name">¿por que quieres adoptar una mascota?:</label>
+  </br>
     <input type="text" id="mascota" text="name">
    </div>
-  </br>
-   <div>
+  <div class="columna">
     ¿tienes experiencia con los animales?
       <input type="radio" name="experiencia" value="si"/>Si
       <input type="radio" name="experiencia" value="no"/>No
    </div>
   </br>
-   <div>
+  <div class="columna">
     ¿tienes otras mascotas?
       <input type="radio" name="mascota" value="si"/>Si
       <input type="radio" name="mascota" value="no"/>No
    </div>
-  </br>
-   <div>
+  <div class="columna">
     <label form="name">¿cuales son tus ingresos mensuales?:</label>
+  </br>
     <input type="text" id="tiempo" text="name"  placeholder="$500.000">
    </div>
-  </br>
-   <div>
+  <div class="columna">
     <label form="name">¿cuantos ingresos dispones para tu mascota?:</label>
+  </br>
     <input type="text" id="tiempo" text="name"  placeholder="$200.000">
    </div>
-  </br>
-    <div>
+  <div class="columna">
     <label form="name">¿cuanto tiempo piensas dedicarle a tu mascota?:</label>
+  </br>
     <input type="text" id="tiempo" text="name">
    </div>
-  </br>
-      <div>
+  <div class="columna">
     <label form="name">en caso de estar ausente por un tiempo,¿quien cuidara de tu mascota?:</label>
+  </br>
     <input type="text" id="ausente" text="name">
    </div>
-  </br>
-    <div>
+  <div>
   <button type="button">guardar</button>
    </div> 
   </br>
    <iv>
   <button type="button">boton de respuesta</button>
    </div> 
+</section>
  </body>
 </html>

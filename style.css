@@ -1,0 +1,32 @@
+header {
+	padding: ;
+}
+
+.boton1 { 
+ text-align: center; 
+ padding: 7px;
+ }
+
+ button {
+ 	 background-color: #6E9BF0;
+ 	 color: black;
+ }
+
+.container {
+	border: black 1px solid;
+	margin: 50px 190px;
+}
+
+.fecha  {
+	background-color: #DFE3E9;
+}
+
+#fecha {
+	padding-right: 80%;
+}
+
+.columna {
+	display: inline-block;
+	width: 38%;
+	padding-left: 10px;
+}
